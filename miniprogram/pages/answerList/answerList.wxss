@@ -1,0 +1,117 @@
+/* pages/answerList/answerList.wxss */
+.myList {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.myList-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+}
+
+.myList-list {
+  width: 100%;
+  height: auto;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.myList-child {
+  width: 94%;
+  height: 160rpx;
+  position: relative;
+  background-color: rgb(242, 242, 242);
+  margin: 10rpx auto 20rpx auto;
+  border-radius: 8rpx;
+}
+
+.myList-left {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myList-left .myList-left-yes {
+  font-size: 20rpx;
+  display: inline-block;
+  background-color: rgb(83, 216, 83);
+  color: white;
+  padding: 6rpx 6rpx;
+  border-radius: 8rpx;
+}
+
+.myList-left .myList-left-no {
+  font-size: 20rpx;
+  display: inline-block;
+  background-color: rgb(250, 69, 69);
+  color: white;
+  padding: 6rpx 6rpx;
+  border-radius: 8rpx;
+}
+
+.myList-top-top {
+  position: relative;
+  /* left: 120rpx; */
+  top: 6rpx;
+  right: 0;
+  height: 33.33333%;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  padding: 0 16rpx 0 124rpx;    
+  flex-flow: row nowrap;
+}
+
+.myList-top-top image {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+}
+
+.myList-top {
+  position: relative;
+  /* left: 120rpx; */
+  top: 0;
+  right: 0;
+  height: 33.33333%;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  padding: 0 16rpx 0 124rpx;
+}
+
+.myList-top text {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  position: relative;
+
+  top: 6rpx;
+}
+
+.myList-bottom {
+  position: absolute;
+  left: 120rpx;
+  bottom: 0;
+  right: 0;
+  height: 33.33333%;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: rgb(88, 88, 88);
+}

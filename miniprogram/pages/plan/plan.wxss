@@ -1,0 +1,174 @@
+.plan {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.plan-header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 90rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan-center {
+  position: absolute;
+  top: 100rpx;
+  bottom: 150rpx;
+  width: 100%;
+  left: 0;
+  overflow-y: auto;
+}
+
+.plan-footer {
+  position: absolute;
+  height: 150rpx;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.update {
+  background-color: #87CEFA;
+  color: white;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
+  width: 92%;
+  transition: all .3s ease;
+}
+
+.update::after {
+  border: none;
+}
+
+.planBtn {
+  background-color: #87CEFA;
+  color: white;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
+  width: 26%;
+  height: 52rpx;
+  font-size: 22rpx;
+  line-height: 52rpx;
+}
+
+.planBtn::after {
+  border: none;
+}
+
+.plan-list {
+  width: 92%;
+  height: 150rpx;
+  overflow: hidden;
+  background-color: rgba(250, 250, 250, 1);
+  margin: 0 auto 20rpx auto;
+  position: relative;
+}
+
+.plan-center-wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-list-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-list-left image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.plan-list-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 80rpx;
+  right: 88rpx;
+}
+
+.plan-list-center1 {
+  width: 99%;
+  height: 90rpx;
+  position: relative;
+  top: 12rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 30rpx;
+} 
+
+.plan-list-center2 {
+  width: 99%;
+  height: 40rpx;
+  font-size: 24rpx;
+  /* display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around; */
+  position: relative;
+  color: #797878;
+  top: 14rpx;
+} 
+
+
+
+
+.plan-list-center2 .plan-list-center-child1 {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.plan-list-center2 .plan-list-center-child2 {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.plan-list-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 86rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-list-right image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 黄色按钮样式 */
+.chooseBtn-hover {
+  background-color: #87CEFA!important;
+  color: white!important;
+}
